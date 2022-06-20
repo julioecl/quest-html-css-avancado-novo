@@ -1,0 +1,87 @@
+html {
+    font-size: 62.5%; 
+}
+
+body {
+    background: var(--violet) url(../images/bg-desktop.svg) left top no-repeat;    
+}
+
+.header {    
+    margin: 50px 70px;    
+}
+
+.header img {
+    width: 212px;
+    height: 60px;
+}
+
+.hero {
+    display: flex;
+}
+
+.hero .image {
+    margin-top: 30px;
+    margin-left: 72px;
+}
+
+.hero .text {
+    margin: 73px 64px 15px 53px;      
+}
+
+.hero .text h1, .hero .text a  {
+    font-family: 'Poppins', sans-serif;    
+}
+
+.hero .text h1 {
+    font-size: 4rem;    
+    color: #fefff9;          
+}
+
+.hero .text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8rem;
+    margin: 20px 30px 37px 0;      
+    line-height: 1.5;
+    color: #efdeff;
+}
+
+.hero .text a {
+    background-color: #ffffff;
+    color: var(--violet);
+    font-size: 1.8rem;     
+    padding: 15px 64px 16px;
+    border-radius: 50px;    
+    box-shadow: 0 3px 5px 3px rgba(0,0,0, 0.2);     
+}
+
+.hero .text a:hover {
+    background-color: var(--soft-magenta);
+    color: #fffefe;
+    transition: ease-in-out 0.3s;
+}
+
+.social ul {    
+    display: flex;
+    justify-content: flex-end;
+    text-align: center; 
+    margin: 12px 72px 0 0;     
+}
+
+.social a {  
+    width: 40px;
+    height: 40px;	
+	border: 1px solid;
+	padding-top: 18px;
+	border-radius: 25px;       
+    font-size: 1.8rem;
+    margin: 8px;            
+}
+
+.social a.fa.fa-lg.fa-instagram {
+    font-size: 2.2rem;
+} 
+
+.social a:hover {    
+    color: var(--soft-magenta);
+    transition: ease-in-out 0.3s;
+}
