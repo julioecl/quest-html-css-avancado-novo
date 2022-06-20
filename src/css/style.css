@@ -34,7 +34,8 @@ body {
 
 .hero .text h1 {
     font-size: 4rem;    
-    color: #fefff9;          
+    color: #fefff9;
+    margin-right: 30px;          
 }
 
 .hero .text p {
