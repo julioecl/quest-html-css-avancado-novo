@@ -3,10 +3,9 @@ html {
 }
 
 body {
-    background: var(--violet) url(../images/bg-desktop.svg) left top no-repeat;    
-}
-
-.header {    
+    background: var(--violet) url(../images/bg-desktop.svg) left top no-repeat;
+    background-size: contain;
+    min-height: 100vh; 
     margin: 50px 70px;    
 }
 
@@ -17,11 +16,11 @@ body {
 
 .hero {
     display: flex;
+    justify-content: center;
 }
 
 .hero .image {
-    margin-top: 30px;
-    margin-left: 72px;
+    margin-top: 30px;    
 }
 
 .hero .text {
@@ -69,12 +68,12 @@ body {
 }
 
 .social a {  
-    width: 40px;
-    height: 40px;	
+    width: 39px;
+    height: 39px;	
 	border: 1px solid;
-	padding-top: 18px;
+	padding-top: 19px;
 	border-radius: 25px;       
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     margin: 8px;            
 }
 
